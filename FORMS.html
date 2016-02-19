@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="" method="get">
+    <p>Please enter any feedback you have.</p>
+
+    <textarea rows="3"  cols="60" name="feedback">
+        Please enter your text here
+    </textarea>
+    <br>
+    <input type="submit" value="Send">
+
+</form>
+
+<form>
+    Please enter your name. <br>
+    <input type="text" name="feedback" value="yo yo"> <br> <br>
+
+    Please select each of the following that you have. <br>
+    <input type="checkbox" name="items" value="car">Car <br>
+    <input type="checkbox" name="items" value="teddy bear"> Teddy Bear <br>
+    <input type="checkbox" name="items" value="toothbrush"> Toothbrush <br> <br>
+
+    Please indicate your intelligence level. <br>
+    <input type="radio" name="iq" value="high">High <br>
+    <input type="radio" name="iq" value="medium" checked>Medium <br>
+    <input type="radio" name="iq" value="low">Low <br> <br>
+</form>
+
+<form>
+    <p>What is the secret password</p>
+    <input type="password" name="userpassword" autofocus placeholder="your password!"> <br>
+
+    <input type="submit" value="Send">
+</form>
+
+<form>
+    <p>What city would you like to go to?</p>
+
+    <select name="cities">
+        <option value="hk">Hong Kong</option>
+        <option value="vc">Vancouver</option>
+        <option value="sf">San Francisco</option>
+        <input type="submit" value="Send">
+    </select>
+</form>
+
+<form>
+    <p>Please fill in the following information:</p>
+
+    <label for="firstname">First name:</label>
+    <input type="text" id="firstname" name="firstname" value="Dave" autofocus>
+    <br>
+    <label for="lastname">Last name:</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Your last name goes here">
+    <br>
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age" required>
+    <br>
+
+    <input type="submit" value="Submit">
+</form> <br>
+
+<form action="destination" method="post" enctype="multipart/form-data">
+    <!--
+    Uploading files-form structure
+    Other form input elements go here if any
+    -->
+    <input type="file" name="fileToUpload">
+    <input type="submit">
+</form> <hr>
+
+<form method="post" enctype="multipart/form-data"
+        action="">
+    <p>Select the file you want to upload</p>
+        <input type="file" name="fileToUpload">
+
+        <p>Press this button to send it</p>
+        <input type="Submit" value="Upload the File">
+</form>
+
+</body>
+</html>
