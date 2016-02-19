@@ -83,5 +83,76 @@
         <input type="Submit" value="Upload the File">
 </form>
 
+<form>
+    <label for="age1">Your age:</label>
+    <input type="number" min="0" max="99" step="1" value="18"
+           id="age1" name="age1" required> <br>
+    <label for="birthday">Your Birthday:</label>
+    <input type="date" id="birthday" name="birthday"> <br>
+    <label for="wakeup">You want to wake up at:</label>
+    <input type="time" id="wakeup" name="wakeup"> <br>
+    <label for="color">Your favorite color:</label>
+    <input type="color" id="color" name="color"> <br>
+    <label for="mood">Your mood:</label>
+    Bad <input type="range" min="0" max="100" step="5" value="50"
+               id="mood" name="mood"> Good<br>
+    <input type="submit" value="Submit!">
+</form> <hr>
+
+<input type="text" name="weight" placeholder="Your weight..." /> lbs<br>
+<input type="radio" name="weight" value="<70"/> <70 lbs
+<input type="radio" name="weight" value="70-79"/> 70 - 79 lbs
+<input type="radio" name="weight" value="80-89"/> 80 - 89 lbs
+<input type="radio" name="weight" value="90-99"/> 90 - 99 lbs
+<input type="radio" name="weight" value="100-109"/> 100 - 109 lbs
+<input type="radio" name="weight" value="110-119"/> 110 - 119 lbs
+<input type="radio" name="weight" value="120-120"/> 120 - 129 lbs
+<input type="radio" name="weight" value=">=130"/> >=130 lbs <br>
+<input type="checkbox" name="weight" value="<70"/> <70
+lbs<input type="checkbox" name="weight" value="70-79"/> 70 - 79 lbs
+<input type="checkbox" name="weight" value="80-89"/> 80 - 89 lbs
+<input type="checkbox" name="weight" value="90-99"/> 90 - 99 lbs
+<input type="checkbox" name="weight" value="100-109"/> 100 - 109 lbs
+<input type="checkbox" name="weight" value="110-119"/> 110 - 119 lbs
+<input type="checkbox" name="weight" value="120-120"/> 120 - 129 lbs
+<input type="checkbox" name="weight" value=">=130"/> >=130 lbs<br>
+<input type="range" name="weight" min="70" max="130"/> lbs<hr>
+<form id="uploadForm" method="get" action="upload.php">
+    <label for="studentID">Student ID</label><br />
+    <input type="text" name="studentID" id="studentID"
+           placeholder="Enter your student ID here" />
+    <label for="fileToUpload">Select a File to Upload</label><br />
+    <input type="file" id="fileToUpload" />
+    <input type="submit" value="Upload" />
+</form> <hr>
+
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        First name? <input type="test" name="firstName"> <br>
+        Last name <input type="test" name="lastName"> <br>
+    </fieldset> <br>
+    <fieldset>
+        <legend>Favorite Things</legend>
+        Favourite cartoon? <input type="text" name="favCartoon"> <br>
+        Favourite pizza? <input type="text" name="favoritePizza"> <br>
+    </fieldset> <br>
+    <input type="submit" value="Send">
+</form>
+<div>
+    <fieldset>
+        <legend>Defeated Enemies</legend>
+        Ice Cream Man <br>
+        Super Scary Monster <br>
+    </fieldset>
+    <fieldset>
+        <legend>Friends</legend>
+        Flower lady<br>
+        Amazon Ant 57 <br>
+    </fieldset> <br>
+</div>
+<fieldset>This is information</fieldset>
+<div style="border:1px solid">This is info</div>
+<p style="border:2px solid">This is info</p>
 </body>
 </html>
